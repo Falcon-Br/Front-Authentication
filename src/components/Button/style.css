@@ -1,0 +1,18 @@
+.button{
+    width: 356.48px;
+    height: 38px;
+
+    border: 0;
+    border-radius: 8px;
+
+    background-color: var(--button-color-blue);
+    color: white;
+    
+    transition: all 0.3s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--button-span-color-blue);
+    transform: scale(1.02);
+}
